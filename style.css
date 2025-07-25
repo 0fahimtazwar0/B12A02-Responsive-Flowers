@@ -211,28 +211,33 @@ nav {
     position: relative;
 }
 
-.floating-text-1{
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    .floating-text-1{
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        font-size: 1.25rem;
 
-}
-.floating-text-2{
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.floating-text-3{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+    }
+    .floating-text-2{
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        font-size: 1.25rem;
+    }
+    .floating-text-3{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        font-size: 2.5rem;
+    }
 
 .floating-text-1, .floating-text-2, .floating-text-3{
-    font-size: 1.25rem;
     color: white;
     font-weight: bold;
     font-family: noto-serif;
@@ -240,6 +245,14 @@ nav {
 .shop{
     margin-top: -19px;
     font-size: 1rem;
+    font-weight: 600;
+    font-family: inter;
+    text-decoration: underline;
+}
+
+.shop2 {
+    margin-top: -29px;
+    font-size: 1.75rem;
     font-weight: 600;
     font-family: inter;
     text-decoration: underline;
@@ -484,6 +497,7 @@ nav {
         left: 50%;
         transform: translate(-50%, -50%);
         width: 100%;
+        font-size: 1.25rem;
 
     }
     .floating-text-2{
@@ -492,6 +506,7 @@ nav {
         left: 50%;
         transform: translate(-50%, -50%);
         width: 100%;
+        font-size: 1.25rem;
     }
     .floating-text-3{
         position: absolute;
@@ -499,15 +514,15 @@ nav {
         left: 50%;
         transform: translate(-50%, -50%);
         width: 100%;
+        font-size: 1.25rem;
     }
 
     .floating-text-1, .floating-text-2, .floating-text-3{
-        font-size: 1.25rem;
         color: white;
         font-weight: bold;
         font-family: noto-serif;
     }
-    .shop{
+    .shop, .shop2{
         margin-top: -19px;
         font-size: 1rem;
         font-weight: 600;
