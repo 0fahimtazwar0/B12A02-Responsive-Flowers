@@ -103,7 +103,53 @@ nav {
     gap: 30px 20px;
 }
 
+/* flower lover section */
+.flower-lover{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 13.125rem 9.5rem 8.36rem;
+}
+.flower-lover div{
+    width: 46%
+}
 
+
+.details h1{
+    font-family: noto-serif;
+    font-weight: bold;
+    font-size: 3.125rem;
+    width: 30rem;
+    
+}
+.details ul{
+    list-style-type:disc;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.375rem;
+}
+.details li{
+    margin-left: 2rem;
+    margin-top: 20px;
+}
+.flower-lover-pics{
+    position: relative;
+}
+
+@keyframes rotation {
+    from{
+        rotate: 0deg;
+    }
+    to{ rotate: 360deg;}
+}
+
+.trusted-badge{
+    position: absolute;
+    width: 17.875rem;
+    top: -22%;
+    right: -22%;
+    animation: rotation 3s linear 0s infinite;
+
+}
 
 
 
