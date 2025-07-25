@@ -277,6 +277,28 @@ nav {
     padding-bottom: 193px;
 }
 
+/* contact info */
+
+.contact-info{
+    display: flex;
+    align-items: center;
+    justify-self: center ;
+    gap: 110.67px;
+    margin: 50px 0 ;
+}
+
+.link-column li{
+    padding-top: 32px;
+}
+.social-media{
+    display: flex;
+    gap: 24px;
+    margin-top: -170px;
+}
+.social-media img{
+    width: 36px;
+    height: 36px;
+}
 
 
 
