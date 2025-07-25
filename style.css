@@ -168,7 +168,7 @@ nav {
     margin-bottom: 7.5rem;
 }
 
-.latest-deals .text .h1{
+.latest-deals .text h1{
     margin-bottom: 1rem;
 }
 
@@ -353,6 +353,89 @@ nav {
     .details li{
         margin-top: 1rem;
         margin-left: 1.25rem;
+    }
+
+
+
+    /* Latest Deals section */
+
+    .latest-deals .text{
+        justify-self: center;
+        text-align: center;
+        width: 21rem;
+        margin-bottom: 3.21rem;
+    }
+
+    .latest-deals .text h1{
+        margin-bottom: 1rem;
+    }
+
+    .image-collage{
+        display: block;
+        justify-self: center;
+        width: 100%;
+        justify-items: center;
+        height: auto;
+    }
+
+    .zabo{
+        height: auto;
+    }
+
+    .bloom, .ana, .zabo{
+        filter: brightness(60%);
+        border-radius: 1rem;
+        margin-bottom: 20px;
+
+    }
+
+    .collage-1{
+        position: relative;
+    }
+
+    .ana{
+        position: relative;
+    }
+    .bloom-con .ana-con, .collage-2{
+        position: relative;
+        width: 79.16%;
+    }
+
+    .floating-text-1{
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+
+    }
+    .floating-text-2{
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+    }
+    .floating-text-3{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+    }
+
+    .floating-text-1, .floating-text-2, .floating-text-3{
+        font-size: 1.25rem;
+        color: white;
+        font-weight: bold;
+        font-family: noto-serif;
+    }
+    .shop{
+        margin-top: -19px;
+        font-size: 1rem;
+        font-weight: 600;
+        font-family: inter;
+        text-decoration: underline;
     }
 
 
