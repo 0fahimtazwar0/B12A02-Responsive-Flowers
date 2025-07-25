@@ -236,6 +236,47 @@ nav {
 }
 
 
+/* join section */
+
+.join-section{
+    background-image: url(assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.join-section h1{
+    font-family: noto-serif;
+    font-size: 3.125rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-top: 120px;
+    padding-top: 199px;
+}
+
+#email{
+    background-color: white;
+    width: 644px;
+    height: 50px;
+    border-radius: 0%;
+    padding-left: 20px;
+}
+
+#subscribe{
+    background-color: #E95A08;
+    color: white;
+    width: 186px;
+    height: 50px;
+    border-radius: 0%;
+}
+.input-field{
+    display: flex;
+    justify-content: center;
+    margin-top: 23px;
+    padding-bottom: 193px;
+}
+
 
 
 
