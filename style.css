@@ -155,6 +155,86 @@ nav {
 
 
 
+/* Latest Deals section */
+
+.latest-deals{
+    text-align: center;
+}
+
+.latest-deals .text{
+    justify-self: center;
+    text-align: center;
+    width: 55.5rem;
+    margin-bottom: 7.5rem;
+}
+
+.latest-deals .text .h1{
+    margin-bottom: 1rem;
+}
+
+.image-collage{
+    display: flex;
+    gap: 1.94%;
+    justify-self: center;
+    width: 79.16%;
+    height: 423.13px;
+}
+
+.zabo{
+    height: 423.13px;
+}
+
+.bloom, .ana, .zabo{
+    filter: brightness(60%);
+    border-radius: 1rem;
+}
+
+.collage-1{
+    position: relative;
+}
+
+.ana{
+    position: absolute;
+    bottom: 0;
+}
+.bloom-con .ana-con, .collage-2{
+    position: relative;
+}
+
+.floating-text-1{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.floating-text-2{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.floating-text-3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.floating-text-1, .floating-text-2, .floating-text-3{
+    font-size: 1.25rem;
+    color: white;
+    font-weight: bold;
+    font-family: noto-serif;
+}
+.shop{
+    margin-top: -19px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inter;
+    text-decoration: underline;
+}
+
 
 
 
