@@ -480,6 +480,26 @@ nav {
     }
 
 
+    /* join section */
+
+    .join-section h1{
+        font-size: 1.25rem;
+        margin-top: 44.5px;
+        padding-top: 110.5px;
+    }
+
+    #email{
+        width: 218px;
+    }
+
+    #subscribe{
+        width: 103px;
+    }
+    .input-field{
+        margin-top: 23px;
+        padding-bottom: 61.5px;
+    }
+
 
 
 }
