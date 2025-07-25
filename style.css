@@ -34,7 +34,8 @@ body{
 .btn-primary{
     font-weight: 600;
     font-size: 1rem;
-    padding: 19px 76px;
+    padding: 19px 0;
+    width: 100%;
     color: white;
     background-color: #E95A08;
 }
@@ -166,13 +167,13 @@ nav {
 
     /* shared */
     .btn-primary{
-    padding: 19px 30.5px;
+    padding: 19px 0;
     }
 
     /* header styles */
 
     /* nav */
-    .nav-links li:nth-child(1), li:nth-child(2), li:nth-child(3){
+    .nav-links li:nth-child(1), .nav-links li:nth-child(2), .nav-links li:nth-child(3){
         display: none;
     }
     nav{
@@ -239,6 +240,39 @@ nav {
 
     .card p {
         font-size: 1rem;
+    }
+
+
+    /* flower lover section */
+    .trusted-badge{
+        display: none;
+
+    }
+    .flower-lover{
+    display: block;
+    margin: 2.5rem 0rem 9rem;
+    justify-self: center;
+    width: 91.12%;
+    }
+    .flower-lover div, .flower-lover-pics img{
+    justify-self: center;
+    width: 100%;
+    
+    }
+
+    .details h1{
+    margin-top: 1.125rem;
+    font-size: 1.5rem;
+    width: 100%;
+    
+    
+    }
+    .details ul{
+        font-size: 0.875rem;
+    }
+    .details li{
+        margin-top: 1rem;
+        margin-left: 1.25rem;
     }
 
 
