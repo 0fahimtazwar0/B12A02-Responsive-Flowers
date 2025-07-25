@@ -7,17 +7,17 @@ body{
 }
 
 /* shared styles */
-.inter-regular, body {
+.inter, body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
-.noto-serif-regular {
+.noto-serif-bold {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -32,7 +32,7 @@ body{
 }
 
 /* header styles */
-
+/* nav styles */
 .nav-links ul {
     list-style: none;
     display: flex;
@@ -52,10 +52,34 @@ nav {
 .logo {
     width: 8.5rem;
 }
+/* banner styles */
+.banner{
+    margin: 15.75rem 9.5vw 0;
+    display: flex;
+    align-items: end;
+}
+.column{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
+
 @media screen and (max-width: 768px) {
 
     /* header styles */
 
+    /* nav */
     .nav-links li:nth-child(1), li:nth-child(2), li:nth-child(3){
         display: none;
     }
@@ -64,6 +88,31 @@ nav {
     }
     nav div:first-child {
         width: 5rem;
+    }
+    /* banner */
+    .banner{
+    margin: 0;
+    flex-direction: column-reverse;
+    
+    }
+
+    .column:first-child{
+        width: calc(100% - 2rem);
+        margin: 1.75rem 1rem;
+    }
+
+    .column:nth-child(2){
+        width: 100%;
+        margin-top: 1.75rem;
+        justify-items: end;
+        position:static;
+    }
+    .column h1{
+        font-size: 1.5rem;
+        width: 12rem;
+    }
+    .column p{
+        font-size: 14px;
     }
 
 }
