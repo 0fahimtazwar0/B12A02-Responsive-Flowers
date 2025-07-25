@@ -36,10 +36,18 @@ body{
     font-size: 1rem;
     padding: 19px 0;
     width: 100%;
-    color: white;
+    color:beige;
     background-color: #E95A08;
 }
 
+.btn-primary:hover{
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 19px 0;
+    width: 100%;
+    color: #E95A08;
+    background-color: white;
+}
 
 /* header styles */
 /* nav styles */
@@ -103,6 +111,8 @@ nav {
     grid-template-columns: repeat(4, 1fr);
     gap: 30px 20px;
 }
+
+
 
 /* flower lover section */
 .flower-lover{
@@ -535,12 +545,8 @@ nav {
         justify-self: center ;
         gap: 110.67px;
         margin: 50px 0 ;
-        font-size: 1rem;
     }
 
-    .size16{
-        font-size: 1rem;
-    }
 
     .link-column li{
         padding-top: 32px;
