@@ -36,9 +36,11 @@ body{
 .nav-links ul {
     list-style: none;
     display: flex;
-    gap: 3rem;
+    gap: 3vw;
     margin: 1.5rem 0;
 }
+
+    
 
 nav {
     display: flex;
@@ -49,4 +51,19 @@ nav {
 
 .logo {
     width: 8.5rem;
+}
+@media screen and (max-width: 768px) {
+
+    /* header styles */
+
+    .nav-links li:nth-child(1), li:nth-child(2), li:nth-child(3){
+        display: none;
+    }
+    nav{
+        margin: 1rem;
+    }
+    nav div:first-child {
+        width: 5rem;
+    }
+
 }
