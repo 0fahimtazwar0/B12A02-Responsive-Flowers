@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+body{
+  margin: 0; 
+  padding: 0;
+  background-color: #F5F8FF;
+}
+
+/* shared styles */
+.inter-regular, body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-serif-regular {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.primary-color {
+    color: #E95A08;
+}
+
+.description-color {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* header styles */
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    margin: 1.5rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 9.5rem;
+}
+
+.logo {
+    width: 8.5rem;
+}
